@@ -1,0 +1,401 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  width: 100%;
+  background-color:white;
+}
+.container{
+  width:83%;
+  margin: auto;
+  font-family: sans-serif;
+}
+.header{
+  position:relative;
+  height: 420px;
+}
+.image-container{
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+.header-body-section{
+  position:absolute;
+  top:0;
+  width:100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+  position:absolute;
+  top:0;
+  width:100%;
+  color: white;
+  font-weight: 100;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logocontainer{
+  display: flex;
+  align-items: center;
+}
+.logocontainer p{
+  padding: 19px;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+}
+.nav ul li{
+  padding: 7px;
+  margin-right: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family:sans-serif;
+}
+.nav ul li a{
+  color: inherit;
+  text-decoration: none;
+}
+.zomato-logo{
+  width:290px;
+}
+.container-header-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  flex-direction: column;
+}
+.header-body-section-discover{
+  font-size: 40px;
+  margin:20px 0;
+
+}
+.search-container{
+  background-color: white;
+  width:100%;
+  height: 55px;
+  max-width: 760px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 7px;;
+}
+.location-map{
+  color: rgb(214, 96, 96);
+  font-size:22px;
+}
+.caret-up{
+  color: black;
+}
+.detectionlocation input{
+  border: none;
+  font-size: 14.5px;
+  width:188px;
+  outline: none;
+
+}
+.search-items{
+  color:gray;
+}
+.line{
+  color: black;
+  padding: 8px;;
+}
+.search-items input{
+  max-width: 100%;
+  width:400px;
+  font-size:15px;
+  border: none;
+  padding: 5 10px;
+  outline: none;
+}
+/**section 1 feature ***/
+.section-1{
+  margin-top:40px;
+}
+
+.container-feature{
+  display: flex;
+  justify-content:space-between;
+
+}
+.features{
+  overflow: hidden;
+  border-radius: 15px;
+  border:0.1px solid rgb(223, 215, 215);
+}
+.feature-image{
+  width: 550px;
+  height:150px;
+  overflow:hidden;
+}
+.feature-image img{
+  width:100%;
+  position: relative;
+  top:-130px;
+}
+.features h3,
+.features p{
+  padding-left: 20px;
+  font-stretch: expanded;
+}
+.features:hover{
+  transition: transform 0.75;
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.section {
+  padding:50px 0;
+}
+
+/***section-3****/
+.section-3{
+  margin:100px 0;
+
+}
+.section-3 h1{
+  font-size:36px;
+  font-weight:lighter;
+  color:rgb(59, 54, 54);
+  font-family:Helvetica, sans-serif;
+}
+.section-3 h3{
+  font-weight:lighter;
+  font-size:23px;
+  margin:0;
+}
+.section-3 p{
+  font-size:16px;
+  margin-top:4px;
+  justify-self: flex-end;
+}
+.localities-list{
+  display:flex;
+  justify-content: space-between;
+  max-width:370px;
+  align-items: center;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  height:80px;
+  border-radius: 5px;
+}
+.localities-card{
+  height:100%;
+  justify-content: space-evenly;
+}
+
+/****section 4 ****/
+.section-4{
+  display: flex;
+  margin: auto;
+  width:700px;
+  align-items: center;
+  margin-bottom: 125px;
+  margin-top: 165px;
+}
+.zomato-app-image{
+  width: 300px;
+}
+.zomato-app-image img{
+  width: 100%;
+  
+}
+.zomato-app-details h1{
+  font-size: 43px;
+  margin-top: 0;
+  font-family:Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.zomato-app-details p{
+  font-size: 18px;
+}
+.zomato-app-input{
+  display: flex;
+  height:45px;
+  margin:10px 0px;
+}
+.input-container-zomato-app{
+  height:100%;
+}
+.input-container-zomato-app select,
+.input-container-zomato-app input{
+  height:100%;
+}
+.input-container-zomato-app input{
+  width:100%;
+  width: 280px;
+  max-width:300px;
+  margin-right: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+}
+.zomato-app-btn{
+  color: white;
+  background-color: rgb(239, 79, 95);
+  width:150px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.zomato-app-radio-btn{
+  margin:5px 0;
+  font-size:18px;
+}
+.download-app{
+  display: flex;
+}
+.download-app img{
+  width:100%;
+  max-width: 120px;
+  margin-right: 10px;
+}
+
+/**** section-5 ****/
+
+.section-5{
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.section-5 h1{
+  font-size:30px;
+  color: rgb(37, 37, 37); 
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+ 
+}
+.section-5_collapse_heading{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  color: rgb(65, 64, 64);
+  font-family:sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  font-stretch: ultra-expanded;
+}
+.section-5_collapse{
+  border:0.2px solid rgb(247, 241, 241);
+  margin:15px 0px;
+  padding:0px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+
+
+/* footer */
+
+.flagimage{
+  width:25px;
+  height:17px;
+}
+.flagimage img{
+  width:100%;
+  height:100%;
+}
+.footeroptionsection{
+  display: flex;
+  border:1.5px solid #ccc;
+  padding:5px;
+  align-items: center;
+  cursor: pointer;
+  border-radius:5px;
+  height: 40px;
+}
+.footeroptionsection:first-child{
+  margin-right: 30px;
+}
+.footeroptionsection select{
+  width:80px;
+  border: none;
+  font-size: 17px;
+  font-weight:lighter;
+  outline: none; 
+}
+.footerlanguagecountry{
+  display:flex;
+}
+.footer-top{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo{
+  width:130px;
+}
+.footer-logo img{
+  width:100%;
+  margin-bottom: 30px;
+  margin-left: 70px;;
+  
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+.downloadapp{
+  width: 100%;
+  display: block;
+  padding: 5px;
+}
+.downloadapp img{
+  width:137px;
+  height: 40px;
+
+}
+.footer-menu ul{
+  padding:0px;
+  list-style: none;
+}
+.footer-menu h3{
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-stretch:ultra-expanded;
+}
+
+.footer-menu a{
+  color: #686666;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+}
+.socialMedialinks{
+  margin-bottom:20px;
+  font-size: 20px;
+  margin-top: 0;
+}
+.horizontalline{
+  color: black;
+}
+.horizontalline p{
+  font-size: 1px;
+}
+.gapfoot li{
+  padding: 3px;
+}
+.footp{
+  color: rgb(48, 45, 45);
+  font-size: 13px;
+
+}
